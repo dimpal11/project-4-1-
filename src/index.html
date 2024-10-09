@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="./output.css" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="js/script.js"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="./output.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    
+  <!-- Navbar -->
+  <nav class="bg-[#ECF4F1] border-b border-[#C4EDD7]">
+    <div class="container mx-auto flex justify-between items-center py-4 px-4 md:px-8">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <a href="#" class="flex items-center text-[#43916F] font-bold text-xl">
+        <img src="image/logo.svg" alt="">
+        </a>
+      </div>
+
+      <!-- Menu items -->
+      <div class="hidden md:flex space-x-6 items-center">
+        <a href="#" class="text-[#43916F]  text-xs font-bold uppercase outfit">Home</a>
+        <a href="#" class="text-[#072B2C] text-xs font-bold uppercase outfit">Features</a>
+        <a href="#" class="text-[#072B2C]  text-xs font-bold uppercase outfit">About Us</a>
+        <a href="#" class="bg-[#105F62] text-white  py-2 px-4 rounded-sm outfit text-xs font-bold uppercase">Contact Us</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden">
+        <button id="menu-btn" class="text-gray-700 focus:outline-none lg:bg-[#105F62]">
+            <i class="fa-solid fa-bars text-xl"></i>
+
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden">
+        
+      <a href="#" class="block py-2 px-4 text-green-700 hover:bg-gray-100">Home</a>
+      <a href="#" class="block py-2 px-4 text-gray-700 hover:bg-gray-100">Features</a>
+      <a href="#" class="block py-2 px-4 text-gray-700 hover:bg-gray-100">About Us</a>
+      <a href="#" class="block py-2 px-4 bg-teal-900 text-white hover:bg-teal-700">Contact Us</a>
+    </div>
+  </nav>
+
+
+      <!-- Hero Section -->
+      <section class="container mx-auto lg:mt-4 px-5 flex flex-col md:flex-row items-center">
+        <!-- Text Content -->
+        <div class="md:w-1/2 mb-8 md:mb-0 m-2">
+          <h2 class="text-[#43916F] font-extrabold text-xl mb-2 flex items-center outfit"><span><img src="image/icoc.svg" alt=""></span>Effortless Financial Management</h2>
+          <h1 class="text-4xl outfit md:text-5xl font-bold text-[#072B2C] mb-6">
+            SIMPLIFY YOUR ACCOUNTING WITH <span class="text-[#43916F]">CHAPTER .1</span>
+          </h1>
+          <p class="text-[#072B2C] lg:text-base outfit font-normal mb-6">
+            Lorem ipsum dolor sit amet consectetur. Egestas orci a tellus nulla in faucibus scelerisque lacus. 
+            Bibendum mus nibh orci vestibulum vivamus sodales ornare cursus.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="bg-[#105F62] text-white py-3 px-6 rounded hover:bg-green-700">Contact Us</a>
+            <a href="#" class="border border-[#072B2C] text-[#072B2C] py-3 px-6 rounded hover:bg-gray-100">Learn More</a>
+          </div>
+        </div>
+    
+        <!-- Image Section -->
+        <div class="md:w-1/2 flex justify-center ml-[70px]">
+            <img src="image/hero section.svg" alt="">
+        </div>
+      </section>
+   
+
+
+      <!-- KEY FEATURES start -->
+<!-- <section class="bg-[#ECF4F1] py-5">
+    <div class="flex justify-center items-center gap-3 py-10">
+        <img src="image/keyicon (2).svg" alt="">
+        KEY FEATURES
+        <img src="image/keyicon (1).svg" alt="">
+    </div>
+
+    <div class="">
+        <h2 class="items-center flex justify-center font-extrabold text-4xl outfit uppercase pt-6">Everyday Business Accounting </h2>
+        <p class="items-center flex justify-center text-center outfit font-normal text-base ">Our accounting software simplifies everyday financial tasks, empowering you to manage your <br> finances effectively and achieve your business aspirations.</p>
+    </div>
+
+    <div class="container mx-auto">
+      
+        <div class="w-1/2">
+            <div class="bg-[#BEDACF]">
+                <img src="image/bro key.svg" alt="">
+            </div>
+        </div>
+
+        <div class="w-1/2">
+          <div>
+            <h2>Seamless GST Invoicing, E-invoicing, and E-way Bills Creation</h2>
+            <p>Easily comply with government regulations and create customizable & fully compliant GST invoices, e-invoices, e-way bills, quotations, and other essential documents via GST Accounting Software. You can directly send them over WhatsApp or email and track when your clients view your invoice. Easily send automated reminders to collect payments on time.</p>
+          </div>
+        </div>
+      
+    </div>
+</section> -->
+
+<section class="py-12 bg-[#ECF4F1]">
+  <!-- Title Section -->
+  <div class="flex justify-center items-center gap-3 py-10">
+    <img src="image/keyicon (2).svg" alt="">
+    KEY FEATURES
+    <img src="image/keyicon (1).svg" alt="">
+</div>
+
+  <!-- Left Image, Right Text (First Row) -->
+  <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <!-- Left Side: Image -->
+      <div class="w-full bg-green-50 rounded-lg p-4">
+          <img src="image/bro key.svg" alt="Invoice Illustration" class="mx-auto">
+      </div>
+
+      <!-- Right Side: Text Section -->
+      <div class="w-full flex flex-col justify-center">
+          <h3 class="text-xl font-bold text-green-700">Seamless GST Invoicing, E-invoicing, <br> and E-way Bills Creation</h3>
+          <p class="text-gray-600 mt-4">
+            Easily comply with government regulations and create customizable & fully compliant GST invoices, e-invoices, e-way bills, quotations, and other essential documents via GST Accounting Software. You can directly send them over WhatsApp or email and track when your clients view your invoice. Easily send automated reminders to collect payments on time.
+          </p>
+          <button class="mt-6 bg-transparent border-2 border-green-600 text-green-600 px-4 py-2 rounded-lg font-semibold hover:bg-green-600 hover:text-white transition duration-300">
+              See More
+          </button>
+      </div>
+  </div>
+
+  <!-- Left Image, Right Text (Second Row) -->
+ 
+</section>
+
+      <!-- KEY FEATURES end -->
+      
+      <script src="js/script.js"></script>
+</body>
+
+</html>
